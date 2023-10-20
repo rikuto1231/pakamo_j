@@ -7,7 +7,7 @@ import fighter.PokamonVolt;
 public class PokamonVoltSample extends PokamonVolt{
     
     public PokamonVoltSample(){
-        super(20,20,20,20,20);
+        super(35,10,5,10,40);
     }
 
     @Override
