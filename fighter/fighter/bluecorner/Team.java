@@ -17,9 +17,11 @@ public class Team {
         Pokamon[] fighters = new Pokamon[MAX_FIGHTER];
 
         //ここに自作したポカモンクラスを出したい順序に書きます
-        fighters[0] = new PokamonFireSample();//f
-        fighters[1] = new PokamonVoltSample();//
-        fighters[2] = new PokamonSteelSample();
+        fighters[0] = new PokamonFireSample();//炎
+        fighters[1] = new PokamonVoltSample();//雷
+        fighters[2] = new PokamonSteelSample();//鋼
+
+        
 
         return fighters;
     }
