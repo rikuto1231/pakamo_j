@@ -12,7 +12,7 @@ public class PokamonFireSample extends PokamonFire{
 
     @Override
     public String getName() {
-        return "炎サンプル青";
+        return "バオップ";
     }
     
     @Override
