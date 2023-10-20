@@ -12,7 +12,7 @@ public class PokamonVoltSample extends PokamonVolt{
 
     @Override
     public String getName() {
-        return "雷サンプル赤";
+        return "パチリス";
     }
 
     @Override

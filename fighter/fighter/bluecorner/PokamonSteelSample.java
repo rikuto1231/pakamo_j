@@ -12,7 +12,7 @@ public class PokamonSteelSample extends PokamonSteel{
 
     @Override
     public String getName() {
-        return "鋼サンプル赤";
+        return "デカムチャン";
     }
 
     @Override
