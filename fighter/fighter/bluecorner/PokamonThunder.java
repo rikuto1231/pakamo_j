@@ -2,19 +2,19 @@ package bluecorner;
 
 import java.util.Random;
 
-import fighter.PokamonFire;
+import fighter.PolamonGrass;
 
-public class PokamonFireSample extends PokamonFire{
-
-    public PokamonFireSample(){
-        super(40,15,10,20,15);
+public class PokamonGrassSample extends PolamonGrass{
+    
+    public PokamonGrassSample(){
+        super(35,10,5,10,40);
     }
 
     @Override
     public String getName() {
-        return "バオップ";
+        return "草サンプル青";
     }
-    
+
     @Override
     public boolean isSpecialAttack(int turn, int opHp, int opPow, int opDef) {
         Random r = new Random();
@@ -32,5 +32,4 @@ public class PokamonFireSample extends PokamonFire{
         }
         return NORMAL_ATTACK;
     }
-    
 }

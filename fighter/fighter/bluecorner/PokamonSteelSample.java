@@ -7,7 +7,7 @@ import fighter.PokamonSteel;
 public class PokamonSteelSample extends PokamonSteel{
     
     public PokamonSteelSample(){
-        super(20,20,20,20,20);
+        super(60,20,10,5,5);
     }
 
     @Override
